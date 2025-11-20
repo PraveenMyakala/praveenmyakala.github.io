@@ -1,7 +1,102 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Basic site settings
+title: "Your Site Title"
+description: "Short description of your site for SEO and sharing."
+email: "you@example.com"
+author:
+  name: "Your Name"
+  email: "you@example.com"
 
-layout: page
-title: "Connect"
-permalink: /connect
+# URL settings - set to your GitHub Pages domain after publishing
+# For user/organization pages (username.github.io) set baseurl: ""
+# For project pages set baseurl: "/repo-name"
+url: "https://username.github.io" # <- update to your production URL
+baseurl: "" # <- leave blank for username.github.io; for project pages add "/repo-name"
+
+# Theme: choose one of the GitHub Pages supported themes, or use a remote_theme
+# Simple example using a standard GitHub Pages theme:
+theme: jekyll-theme-cayman
+
+# Plugins (supported by GitHub Pages): jekyll-seo-tag, jekyll-feed, jekyll-sitemap
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown processor and options
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    guess_lang: false
+
+# Permalinks for posts and pages
+permalink: /:categories/:title/
+# Example: /2025/11/your-post-title/ if using collections or other rules
+
+# Defaults (front matter defaults)
+defaults:
+  - scope:
+      path: "" # empty string means all files
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Collections (if you want custom collections)
+# collections:
+#   docs:
+#     output: true
+#     permalink: /:collection/:path/
+
+# Exclude files/folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - README.md
+  - .github
+
+# Include files (if necessary)
+include:
+  - CNAME
+
+# Build settings
+safe: true
+lsi: false
+future: true
+show_drafts: false
+
+# Pagination (if using pagination plugin you'd set it here)
+# paginate: 5
+# paginate_path: "/blog/page:num/"
+
+# Social links (used by some themes or your templates)
+social:
+  twitter: your_twitter_handle
+  github: username
+  linkedin: your-linkedin-id
+
+# SEO & feed options (jekyll-seo-tag / jekyll-feed)
+jekyll_seo_tag:
+  twitter:
+    username: your_twitter_handle
+
+# Sitemap settings (jekyll-sitemap)
+# sitemap: generated automatically by plugin, options rarely needed
+
+# Google Analytics (if you use it, set the ID or remove this block)
+# google_analytics: UA-XXXXXXXX-X
+
+# Additional custom variables you can reference in templates
+nav_items:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "About"
+    url: "/about/"
+
+# Advanced: if you use a custom domain, add a CNAME file with the domain name
+# and keep it in the repo. Example: CNAME (single line) -> www.example.com
