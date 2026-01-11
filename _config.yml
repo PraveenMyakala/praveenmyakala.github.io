@@ -1,3 +1,23 @@
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+title: Praveen Kumar Myakala
+description: Software Engineer and independent AI researcher focused on AI, ML, and decentralized intelligence.
+
+# Make URLs correct (important for SEO and links)
+# If your site is like https://praveenmyakala.github.io
+url: "https://praveenmyakala.github.io"
+baseurl: ""   # keep empty for user/organization site
+
+# Optional: show downloads link in minimal theme
+show_downloads: false
+
+# Social / identity links (used in schema and footer content if you add it)
+author:
+  name: Praveen Kumar Myakala
+  email: your.email@example.com
+
+same_as:
+  - "https://scholar.google.com/citations?user=Shx2gIAAAAAJ&hl=en"
+  - "https://www.linkedin.com/in/YOUR-LINKEDIN/"
+  - "https://github.com/YOUR-GITHUB/"
+  - "https://orcid.org/YOUR-ORCID"
