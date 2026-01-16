@@ -179,3 +179,7 @@ footer {
         width: 100%;
     }
 }
+
+.links a[title="ORCID"]:hover {
+    color: #A6CE39;
+}
