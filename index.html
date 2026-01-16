@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Kumar Myakala | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #333333;
+            --accent: #007AFF;
+            --secondary: #f4f4f9;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid var(--secondary);
+        }
+
+        h1 { margin: 10px 0; font-size: 2.5rem; }
+        .tagline { color: #666; font-size: 1.2rem; margin-bottom: 20px; }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .links a {
+            color: var(--text);
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .links a:hover { color: var(--accent); }
+
+        section { margin-bottom: 40px; }
+        h2 { border-bottom: 2px solid var(--secondary); padding-bottom: 10px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--secondary);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- Replace with your actual photo later -->
+            <img src="praveen-kumar-myakala.png" alt="Praveen Kumar Myakala" class="profile-pic">
+            <h1>Hi, I'm Praveen</h1>
+            <p class="tagline">Software Engineer · AI & Machine Learning Researcher</p>
+
+            <div class="links">
+                <a href="https://github.com/praveenkmyakala" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/praveenkmyakala/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=Shx2gIAAAAAJ&hl=en" target="_blank" title="Google Scholar">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+                <a href="mailto:praveen.k.myakala@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I’m a software engineer and applied AI researcher with a strong interest in building
+                practical, scalable, and responsible intelligent systems. My work sits at the
+                intersection of distributed systems, machine learning, and real-world deployment,
+                with a particular focus on federated learning, edge AI, and trustworthy AI.
+            </p>
+            <p>
+                I completed my Master’s in Data Science from the University of Colorado Boulder and
+                continue to collaborate on academic research while working on industry-scale systems.
+                I enjoy turning complex ideas into systems that actually work in practice.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>What I Do</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Software Engineering</h3>
+                    <p>
+                        Designing and building scalable backend systems, data pipelines, and cloud-native
+                        platforms using Python and modern infrastructure tooling.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>AI & ML Research</h3>
+                    <p>
+                        Researching and publishing in areas such as federated learning, edge AI,
+                        explainable AI, and privacy-preserving machine learning.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+
+            <p style="color:#666; margin-bottom:20px;">
+                A selection of peer-reviewed articles and preprints. For the complete list, see my
+                <a href="https://scholar.google.com/citations?user=Shx2gIAAAAAJ&hl=en" target="_blank">
+                    Google Scholar profile
+                </a>.
+            </p>
+
+            <div class="card" style="margin-bottom:20px;">
+                <p>
+                    <strong>Federated Learning and Data Privacy: A Review of Challenges and Opportunities</strong><br/>
+                    <em>Praveen Kumar Myakala, Anil Kumar Jonnalagadda, Chiranjeevi Bura</em><br/>
+                    International Journal of Research Publication and Reviews, <b>2024</b><br/>
+                    <a href="https://doi.org/10.55248/gengpi.5.1224.3512" target="_blank">DOI</a> |
+                    <a href="/papers/myakala2024federated.pdf" target="_blank">PDF</a> |
+                    <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=Federated+learning+and+data+privacy%3A+A+review+of+challenges+and+opportunities&btnG=" target="_blank">
+                        Google Scholar
+                    </a>
+                </p>
+            </div>
+
+            <div class="card" style="margin-bottom:20px;">
+                <p>
+                    <strong>Scalable Decentralized Multi-Agent Federated Reinforcement Learning: Challenges and Advances</strong><br/>
+                    <em>Praveen Kumar Myakala, Srikanth Kamatala</em><br/>
+                    International Journal of Electrical, Electronics and Computers, <b>2023</b><br/>
+                     <a href="https://doi.org/10.22161/eec.86.2" target="_blank">DOI</a> |
+                    <a href="/papers/myakala2024federated.pdf" target="_blank">PDF</a> |
+                    <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=Scalable+decentralized+multi-agent+federated+reinforcement+learning%3A+Challenges+and+advances&btnG=" target="_blank">
+                        Google Scholar
+                    </a>
+                </p>
+            </div>
+
+            <div class="card" style="margin-bottom:20px;">
+                <p>
+                    <strong>Advancing Transformative Education: Generative AI as a Catalyst for Equity and Innovation</strong><br/>
+                    <em>Chiranjeevi Bura, Praveen Kumar Myakala</em><br/>
+                    arXiv preprint, 2024
+                </p>
+            </div>
+
+            <div class="card" style="margin-bottom:20px;">
+                <p>
+                    <strong>Scaling AI with Limited Labeled Data: A Self-Supervised Learning Approach</strong><br/>
+                    <em>Praveen Kumar Myakala</em><br/>
+                    ICCK Transactions on Emerging Topics in Artificial Intelligence, 2025
+                </p>
+            </div>
+
+            <div class="card">
+                <p>
+                    <strong>AI-Powered Assistive Technologies for Visual Impairment</strong><br/>
+                    <em>Prudhvi Naayini, Praveen Kumar Myakala, Chiranjeevi Bura, Anil Kumar Jonnalagadda, Srikanth Kamatala</em><br/>
+                    arXiv preprint, 2025
+                </p>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>&copy; 2026 Praveen Kumar Myakala. Built with simplicity.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

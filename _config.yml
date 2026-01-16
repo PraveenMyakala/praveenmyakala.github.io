@@ -14,10 +14,9 @@ show_downloads: false
 # Social / identity links (used in schema and footer content if you add it)
 author:
   name: Praveen Kumar Myakala
-  email: your.email@example.com
+  email: Praveen.K.Myakala@gmail.com
 
 same_as:
   - "https://scholar.google.com/citations?user=Shx2gIAAAAAJ&hl=en"
-  - "https://www.linkedin.com/in/YOUR-LINKEDIN/"
-  - "https://github.com/YOUR-GITHUB/"
-  - "https://orcid.org/YOUR-ORCID"
+  - "https://www.linkedin.com/in/praveenmyakala/"
+  - "https://orcid.org/0009-0009-6988-5592"
