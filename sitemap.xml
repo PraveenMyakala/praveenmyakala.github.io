@@ -8,6 +8,13 @@
    </url>
 
    <url>
+      <loc>https://praveenmyakala.github.io/publications.html</loc>
+      <lastmod>2026-01-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
       <loc>https://praveenmyakala.github.io/papers/myakala2024federated.pdf</loc>
       <lastmod>2026-01-16</lastmod>
       <priority>0.8</priority>
