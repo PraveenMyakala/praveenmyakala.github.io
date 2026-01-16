@@ -185,6 +185,11 @@ footer {
 }
 
 .ai-doi {
-    color: #fcb425; /* Official DOI Orange */
+    color: #FAB70C;
     font-size: 1.1rem;
+}
+
+.ai-doi:hover, .fa-file-pdf:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
 }

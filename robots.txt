@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /papers/
+
+# Sitemaps help engines find your newest publications faster
+Sitemap: https://praveenmyakala.github.io/sitemap.xml
