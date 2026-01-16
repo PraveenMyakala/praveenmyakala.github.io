@@ -183,3 +183,8 @@ footer {
 .links a[title="ORCID"]:hover {
     color: #A6CE39;
 }
+
+.ai-doi {
+    color: #fcb425; /* Official DOI Orange */
+    font-size: 1.1rem;
+}
