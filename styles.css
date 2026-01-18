@@ -193,3 +193,11 @@ footer {
     transform: scale(1.1);
     filter: brightness(1.1);
 }
+
+@media (min-width: 700px) {
+    .activities-list {
+        column-count: 2;
+        column-gap: 32px;
+    }
+}
+
